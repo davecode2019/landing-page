@@ -25,6 +25,12 @@ footer {
   align-items: center;
 }
 
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
 .header-logo {
   font-size: 24px;
   font-weight: 900;
@@ -49,7 +55,27 @@ footer {
 
 .area-one {
   background-color: #1f2937;
-  padding: 75px 0;
+  padding: 100px 200px;
+  display: flex;
+}
+
+.area-one-left {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  padding-right: 50px;
+}
+
+.area-one-right {
+  display: flex;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .area-two,
@@ -70,6 +96,6 @@ footer {
   padding: 75px;
 }
 
-body * {
+/* body * {
   border: 1px solid red;
-}
+} */
