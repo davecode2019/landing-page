@@ -1,3 +1,7 @@
+html {
+  background-color: black;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   width: 1450px;
@@ -11,10 +15,21 @@ header {
   justify-content: space-between;
 }
 
+footer {
+  background-color: #1f2937;
+  height: 75px;
+  font-size: 18px;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .header-logo {
   font-size: 24px;
   font-weight: 900;
   color: #f9faf8;
+  font-weight: 900;
 }
 
 .header-menu {
@@ -30,6 +45,29 @@ header {
 .header-menu li {
   padding: 0px 20px;
   list-style: none;
+}
+
+.area-one {
+  background-color: #1f2937;
+  padding: 75px 0;
+}
+
+.area-two,
+.area-four {
+  background-color: white;
+}
+
+.area-two {
+  padding: 50px 0;
+}
+
+.area-three {
+  background-color: #e5e7eb;
+  padding: 150px 0;
+}
+
+.area-four {
+  padding: 75px;
 }
 
 body * {
