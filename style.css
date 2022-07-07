@@ -1,6 +1,6 @@
 /* BORDER SWITCH FOR DESIGN */
 
-/* {
+/* * {
   border: 1px solid red;
 } */
 
@@ -8,7 +8,7 @@
 
 body {
   margin: 0;
-  padding: 10px 300px;
+  padding: 0;
   background-color: #1f2937;
   font-family: "Roboto", sans-serif;
 }
@@ -21,18 +21,21 @@ p {
 }
 
 h1 {
+  margin: 0;
   font-size: 48px;
   color: #f9faf8;
   font-weight: 900;
 }
 
 h2 {
+  margin: 0;
   font-size: 36px;
   color: #1f2937;
   font-weight: 900;
 }
 
 h3 {
+  margin: 0;
   font-size: 24px;
   color: #f9faf8;
   font-weight: bold;
@@ -63,12 +66,25 @@ a:active {
   cursor: pointer;
 }
 
+button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: 700;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 25px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
 /* HEADER */
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px 15%;
 }
 
 .header-logo {
@@ -83,4 +99,120 @@ header {
 
 .header-link {
   margin-left: 20px;
+}
+
+/* SUB HEADER */
+
+.sub-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 15%;
+}
+
+.sub-header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-right: 150px;
+}
+
+.sub-header-image {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #55575b;
+  width: 600px;
+  height: 250px;
+}
+
+/* INFORMATION AREA */
+
+.info-area {
+  background-color: #f9faf8;
+  padding: 25px 15% 100px 15%;
+}
+
+.info-title {
+  text-align: center;
+}
+
+.info-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.info-box {
+  width: 200px;
+  margin: 30px;
+}
+
+.info-box-image {
+  margin: 10px;
+  width: 170px;
+  height: 170px;
+  border: 5px solid #3882f6;
+  border-radius: 10px;
+}
+
+.info-box-text {
+  color: #55575b;
+  text-align: center;
+}
+
+/* QUOTE AREA */
+
+.quote-area {
+  background-color: #e5e7eb;
+  padding: 100px 20% 75px 20%;
+}
+
+.quote-text {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote-credit {
+  text-align: right;
+  font-size: 24px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+/* CALL AREA */
+
+.call-area {
+  background-color: #f9faf8;
+  padding: 75px 20% 75px 20%;
+}
+
+.call-box {
+  background-color: #3882f6;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px 50px 100px;
+}
+
+.call-button {
+  border: 3px solid white;
+  flex: 0 0 auto;
+  padding: 10px 40px;
+}
+
+/* FOOTER */
+
+footer {
+  padding: 25px 0;
+}
+
+.footer-text {
+  text-align: center;
 }
